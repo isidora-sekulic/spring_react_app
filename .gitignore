@@ -1,0 +1,15 @@
+# Spring / Maven
+strukturaspback/target/
+
+# React / Node
+strukturaspfront/node_modules/
+strukturaspfront/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

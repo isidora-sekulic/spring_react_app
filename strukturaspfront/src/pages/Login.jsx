@@ -94,6 +94,14 @@ const Login = () => {
 
                 <form className="card-body" onSubmit={handleSubmit}>
 
+                    <div className="text-center mb-3">
+
+                        <i className="bi bi-person-circle text-primary"
+                        style={{ fontSize: "70px" }}>
+                        </i>
+
+                    </div>
+
                     <h3 className="text-center mb-4">
 
                         Prijava na sistem
@@ -137,7 +145,7 @@ const Login = () => {
 
                         <label className="form-label">
 
-                            Username
+                            Korisničko ime
 
                         </label>
 
@@ -155,7 +163,7 @@ const Login = () => {
 
                         <label className="form-label">
 
-                            Password
+                            Lozinka
 
                         </label>
 

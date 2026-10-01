@@ -55,7 +55,7 @@ export const StudyProgram = () => {
 
         try {
 
-            await http.delete(`/studyProgram/${id}`);
+            await http.delete(`/studyProgram/${id}`);          
             toast.success("Studijski program je uspešno obrisan.")
 
             loadStudyPrograms();

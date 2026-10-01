@@ -7,14 +7,30 @@ function Home() {
             
             <div className="col-md-7">
               <h1 className="display-4 fw-bold">
-                Study Program Management System
+                  Sistem za upravljanje strukturom studijskih programa
               </h1>
 
               <p className="lead mt-4 fs-4">
-                Upravljanje studijskim programima, modulima, predmetima i
-                izbornim grupama na jednom mestu.
+                Jednostavno upravljanje studijskim programima, modulima, 
+                predmetima i izbornim grupama, na jednom mestu.
               </p>
+
+              <div className="mt-4">
+
+                <p>📖 Upravljanje studijskim programima</p>
+
+                <p>📖 Upravljanje modulima</p>
+
+                <p>📖 Upravljanje predmetima</p>
+
+                <p>📖Upravljanje izbornim grupama</p>
+
+                <p>📖Generisanje PDF izveštaja</p>
+
             </div>
+            </div>
+
+            
 
             <div className="col-md-5 text-center mt-4 mt-md-0">
     <div className="card shadow-lg border-0">
@@ -59,53 +75,95 @@ function Home() {
         </div>
       </section>
 
-      <section className="container my-5">
-        <div className="row g-4">
-          <div className="col-md-3">
-            <div className="card h-100 shadow-sm">
-              <div className="card-body">
-                <h5 className="card-title">Studijski programi</h5>
-                <p className="card-text">
-                  Pregled i upravljanje studijskim programima.
-                </p>
-              </div>
-            </div>
-          </div>
+      <section className="bg-light py-5 mt-5">
 
-          <div className="col-md-3">
-            <div className="card h-100 shadow-sm">
-              <div className="card-body">
-                <h5 className="card-title">Moduli</h5>
-                <p className="card-text">
-                  Dodavanje i izmena modula studijskog programa.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="container">
 
-          <div className="col-md-3">
-            <div className="card h-100 shadow-sm">
-              <div className="card-body">
-                <h5 className="card-title">Predmeti</h5>
-                <p className="card-text">
-                  Upravljanje predmetima i ESPB bodovima.
-                </p>
-              </div>
-            </div>
-          </div>
+            <h2 className="text-center mb-5 fw-bold">
 
-          <div className="col-md-3">
-            <div className="card h-100 shadow-sm">
-              <div className="card-body">
-                <h5 className="card-title">Izborne grupe</h5>
-                <p className="card-text">
-                  Organizacija izbornih grupa i izbornih predmeta.
-                </p>
-              </div>
+                Ključne funkcionalnosti
+
+            </h2>
+
+            <div className="row text-center">
+
+                <div className="col-md-3">
+
+                    <i className="bi bi-diagram-3-fill display-4 text-primary"></i>
+
+                    <h5 className="mt-3">
+
+                        Studijski programi
+
+                    </h5>
+
+                    <p>
+
+                        Kreiranje, izmena, pregled i brisanje studijskih programa.
+
+                    </p>
+
+                </div>
+
+                <div className="col-md-3">
+
+                    <i className="bi bi-grid-fill display-4 text-success"></i>
+
+                    <h5 className="mt-3">
+
+                        Moduli
+
+                    </h5>
+
+                    <p>
+
+                        Organizacija studijskih programa kroz module.
+
+                    </p>
+
+                </div>
+
+                <div className="col-md-3">
+
+                    <i className="bi bi-journal-bookmark-fill display-4 text-warning"></i>
+
+                    <h5 className="mt-3">
+
+                        Predmeti
+
+                    </h5>
+
+                    <p>
+
+                        Upravljanje obaveznim i izbornim predmetima i ESPB bodovima.
+
+                    </p>
+
+                </div>
+
+                <div className="col-md-3">
+
+                    <i className="bi bi-file-earmark-pdf-fill display-4 text-danger"></i>
+
+                    <h5 className="mt-3">
+
+                        PDF izveštaji
+
+                    </h5>
+
+                    <p>
+
+                        Izvoz kompletne strukture studijskog programa.
+
+                    </p>
+
+                </div>
+
             </div>
-          </div>
+
         </div>
-      </section>
+
+    </section>
     </div>
   );
 }

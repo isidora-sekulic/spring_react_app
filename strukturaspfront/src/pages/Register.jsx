@@ -137,7 +137,7 @@ const Register= () =>{
 
                             <label className="form-label">
 
-                                Username
+                                Korisničko ime
 
                             </label>
 
@@ -156,7 +156,7 @@ const Register= () =>{
 
                             <label className="form-label">
 
-                                Password
+                                Lozinka
 
                             </label>
 
@@ -188,7 +188,7 @@ const Register= () =>{
                                 onClick={() => navigate("/login")}
                             >
 
-                                Cancel
+                                Otkaži
 
                             </button>
 
